@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alkatra', cursive;
+}
+.site {
+  background-color: rgb(189,191,195);
+}
+
+.header {
+  background-color: rgb(189,191,195);
+  height: 130px;
+}
+.logo {
+width: 150;
+height: 130px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 101vh;
+  width: 90%;
+  background-color: white;
+  
+}
+.Bbogo {
+  opacity: 0.2;
+  position: relative;
+}
+.footer { 
+  background-color: rgb(189,191,195);
+  height: 30px;
+}
