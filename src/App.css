@@ -4,17 +4,20 @@
   padding: 0;
   font-family: 'Alkatra', cursive;
 }
+
 .site {
-  background-color: rgb(189,191,195);
+  background-color: rgb(189, 191, 195);
 }
 
 .header {
-  background-color: rgb(189,191,195);
+  background-color: rgb(189, 191, 195);
   height: 130px;
 }
+
 .logo {
-width: 150;
-height: 130px;
+  display: flex;
+  width: 150;
+  height: 130px;
 }
 
 .body {
@@ -24,13 +27,44 @@ height: 130px;
   height: 101vh;
   width: 90%;
   background-color: white;
-  
+
 }
+
+.textbox1 {
+  position: absolute;
+  margin-top: 10px;
+  left: 150px;
+  float: center;
+  width: 1001px;
+  height: 200px;
+  text-align: center;
+}
+
 .Bbogo {
+  display: flex;
   opacity: 0.2;
   position: relative;
 }
-.footer { 
-  background-color: rgb(189,191,195);
+
+.picMain {
+  display: flex;
+  position: absolute;
+  margin-top: 400px;
+  
+}
+.imageList{
+  display: flex;
+  position: absolute;
+  margin-top: 900px;
+}
+.images{
+  display: flex;
+  width: 750px;
+  height: 500px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(189, 191, 195);
   height: 30px;
 }
