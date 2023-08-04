@@ -2,11 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Alkatra', cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .site {
   background-color: rgb(189, 191, 195);
+
 }
 
 .header {
@@ -20,51 +21,61 @@
   height: 130px;
 }
 
+.h1 {
+  color: black;
+  background-color: rgb(189, 191, 195);
+}
+
 .body {
-  display: flex;
   justify-content: center;
   margin: auto;
-  height: 101vh;
+  height: 201vh;
   width: 90%;
   background-color: white;
 
 }
 
 .textbox1 {
-  position: absolute;
-  margin-top: 10px;
-  left: 150px;
-  float: center;
-  width: 1001px;
-  height: 200px;
+  margin: auto;
+  width: 1000px;
+  height: auto;
   text-align: center;
+  justify-content: center;
 }
 
-.Bbogo {
-  display: flex;
-  opacity: 0.2;
-  position: relative;
-}
 
 .picMain {
   display: flex;
-  position: absolute;
-  margin-top: 400px;
-  
+  margin: auto;
+  justify-content: center;
+  padding-top: 150px;
 }
-.imageList{
+
+.imageM {
   display: flex;
-  position: absolute;
-  margin-top: 900px;
-}
-.images{
-  display: flex;
-  width: 750px;
+  width: 1300px;
   height: 500px;
 }
 
-.footer {
+.imageList {
   display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  width: 763px;
+  height: 550px;
+}
+
+.textbox2 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer {
   background-color: rgb(189, 191, 195);
   height: 30px;
 }
