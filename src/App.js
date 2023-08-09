@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './App.css';
+import PictureSlideshow from './components/Pics';
 
 function App() {
 
@@ -19,13 +20,8 @@ function App() {
           </div>
         </section>
         <section>
-          <div className='picMain'>
-            <img className='imageM' src='/IMG_3719.jpg'> </img>
-          </div>
           <div className='imageList'>
-            <img className='images' src='/123_1.jpg'> </img>
-            <img className='images' src='/Attachment.jpg'> </img>
-            <img className='images' src='/IMG_3988.jpg'> </img>
+            <PictureSlideshow/>
           </div>
         </section>
         <section className='textbox2'>
