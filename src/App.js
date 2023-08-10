@@ -1,13 +1,12 @@
 import * as React from 'react';
 import './App.css';
-import PictureSlideshow from './components/Pics';
 
 function App() {
 
   return (
     <div className='site'>
       <header className='header'>
-        <img className='logo' src='/RMM-grey-logo.png'></img>
+        <img className='logo' src='/RMM-grey-logo.png' alt='greylogo'></img>
       </header>
       <body className='body' >
         <section className='textbox1'>
@@ -21,7 +20,6 @@ function App() {
         </section>
         <section>
           <div className='imageList'>
-            <PictureSlideshow/>
           </div>
         </section>
         <section className='textbox2'>
