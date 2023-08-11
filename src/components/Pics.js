@@ -1,14 +1,19 @@
 import * as React from 'react';
 import ImageSlider from './ImageSlider';
+import Image1 from './images/Image1.jpg';
+import Image2 from './images/Image2.jpg';
+import Image3 from './images/Image3.jpg';
+import Image4 from './images/Image4.jpg';
+import Image5 from './images/Image5.jpg';
 
 
 const Slider = () => {
   const slides = [
-    { url: 'http://localhost:3000/Image3.jpg', title: 'Image 3' },
-    { url: 'http://localhost:3000/Image1.jpg', title: 'Image 1' },
-    { url: 'http://localhost:3000/Image2.jpg', title: 'Image 2' },
-    { url: 'http://localhost:3000/Image4.jpg', title: 'Image 4' },
-    { url: 'http://localhost:3000/Image5.jpg', title: 'Image 5' },
+    { url: Image3, title: 'Image 3' },
+    { url: Image1, title: 'Image 1' },
+    { url: Image2, title: 'Image 2' },
+    { url: Image4, title: 'Image 4' },
+    { url: Image5, title: 'Image 5' },
 
   ]
 
