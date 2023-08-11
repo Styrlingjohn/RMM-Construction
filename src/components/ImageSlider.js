@@ -17,7 +17,8 @@ const ImageSlider = ({ slides }) => {
         'max-width': '100%',
         borderRadius: '10px',
         backgroundPosition: 'center',
-        backgroundSize: 'cover',
+       'background-size': 'cover',
+        'background-repeat': 'no-repeat',
         backgroundImage: `url(${slides[currentIndex].url})`,
     }
 
