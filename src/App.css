@@ -37,6 +37,8 @@
 
 .textbox1 {
   margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 1000px;
   height: auto;
   text-align: center;
