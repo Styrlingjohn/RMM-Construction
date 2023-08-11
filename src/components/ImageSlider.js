@@ -7,10 +7,14 @@ const ImageSlider = ({ slides }) => {
     const sliderStyles = {
         height: '100%',
         position: 'relative',
+        'max-width': '100%',
+        'max-height': '100%',
     }
     const slideStyles = {
         width: '100%',
         height: '100%',
+        'max-height': '100%',
+        'max-width': '100%',
         borderRadius: '10px',
         backgroundPosition: 'center',
         backgroundSize: 'cover',

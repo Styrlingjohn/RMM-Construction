@@ -5,20 +5,34 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+@media screen and (max-width: 800px) {
+
+  .logo {
+    width: 100%;
+  }
+}
+
+
 .site {
   background-color: rgb(189, 191, 195);
-
+  margin: auto;
 }
 
 .header {
+  display: flex;
   background-color: rgb(189, 191, 195);
   height: 130px;
+  margin: auto;
+  justify-content: left;
+  text-align: left;
 }
 
 .logo {
   display: flex;
-  width: 150;
-  height: 130px;
+  margin: left 0;
+  justify-content: left;
+  text-align: left;
+  float: left;
 }
 
 .h1 {
@@ -41,8 +55,9 @@
   padding-bottom: 50px;
   width: 1000px;
   height: auto;
+  max-width: 100%;
   text-align: center;
-  justify-content: center;
+
 }
 
 
@@ -63,6 +78,7 @@
   display: flex;
   margin: auto;
   justify-content: center;
+  max-width: 100%;
 }
 
 .images {

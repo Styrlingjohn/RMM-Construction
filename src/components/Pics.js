@@ -16,6 +16,7 @@ const Slider = () => {
     width: '900px',
     height: '380px',
     margin: 'auto',
+    'max-width': '100%'
   };
 
   return (
