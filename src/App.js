@@ -1,5 +1,8 @@
 import * as React from 'react';
 import './App.css';
+import Slider from './components/Pics'
+
+
 
 function App() {
 
@@ -20,6 +23,7 @@ function App() {
         </section>
         <section>
           <div className='imageList'>
+            <Slider/>
           </div>
         </section>
         <section className='textbox2'>
@@ -31,7 +35,6 @@ function App() {
               <li>GPS and Laser Grading</li>
               <li>Trucking and Hauling</li>
               <li>Gravel Crushing and Hauling</li>
-              <li> Road building </li>
             </ul>
           </div>
         </section>
