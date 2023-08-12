@@ -18,8 +18,8 @@ const Slider = () => {
   ]
 
   const containerStyles = {
-    width: '900px',
-    height: '380px',
+    width: '1000px',
+    height: '480px',
     margin: 'auto',
     'max-width': '100%'
   };
