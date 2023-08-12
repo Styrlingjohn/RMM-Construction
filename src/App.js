@@ -12,6 +12,14 @@ const serviceBoxes = {
   'font-size': '25px',
   'max-width': '100%',
   'max-height': '100%',
+  'justify-content': 'center',
+}
+
+const contacts = {
+  textAlign: 'center', 
+  margin: 'auto', 
+  width: '100%', 
+  height: '100%' 
 }
 
 
@@ -25,8 +33,8 @@ function App() {
       <body className='body' >
         <section className='textbox1'>
           <div >
-            <h1 style={{ paddingBottom: '15px' }}>About Our Company</h1>
-            <p>Rocky Mountain Maintenance is a large scale earthmoving and excavation company with a proven track record of high quality work on some of Southeast Idaho's
+            <h1 style={{ fontFamily: 'bebas neue', fontSize: '45px', }}>About Our Family Owned Company</h1>
+            <p style={{ paddingTop: '20px', fontSize: '20px', 'line-height': '35px' }}>Rocky Mountain Maintenance is a large scale earthmoving and excavation company with a proven track record of high quality work on some of Southeast Idaho's
               largest projects. Working in both the construction and agricultural fields we have many current and former satisfied clients including J.R. Simplot, Lamb Weston, Teton West of Washington, The Haskell Company, Steuve Construction, International
               Farming Corporation, and many more. Working on large excavation and earthmoving projects requires a company with a safety first mindset, effective communication skills, experienced project managers and operators, and top
               of the line equipment that can efficiently achieve your project goals. Contact us and see how Rocky Mountain Maintenance can complete your project on time and under budget</p>
@@ -38,8 +46,8 @@ function App() {
           </div>
         </section>
         <section>
-          <div>
-            <h1 style={{ paddingBottom: '25px', paddingTop: '200px', textAlign:'center', fontSize: '40px' }} >Services Offered:</h1>
+          <div >
+            <h1 style={{paddingTop: '200px', textAlign: 'center', fontSize: '40px' }} >Services Offered:</h1>
             <div className='textbox2'>
               <div style={serviceBoxes}>Earthmoving</div>
               <div style={serviceBoxes}>Excavation</div>
@@ -49,25 +57,42 @@ function App() {
             </div>
           </div>
         </section>
-        <section className='contactInfo'>
-          <div>
-            <p>
-              Preston Armstrong
-            </p>
-            <br></br>
-
-
-            <p>
-              208-339-1132
+        <section >
+          <div className='contactForm'>
+            <img className='logo2' src='/Logo.png' alt='trackhoe-logo'></img>
+            <div className='contactInfo'>
+              <section className= 'contactTitles' style={contacts}>Contact Information:</section>
+              <div className='contacts'>
+                <section style={contacts}>
+                  President & Project Superintendent
+                  <br></br>
+                  Russell Palmer
+                  <br></br>
+                  208-251-8496
+                  <br></br>
+                  rmm0468@gmail.com
+                </section>
+                <section style={contacts}>
+                  Project Manager
+                  <br></br>
+                  Preston Armstrong
+                  <br></br>
+                  208-251-8496
+                  <br></br>
+                  armstrongpreston6@gmail.com
+                </section>
+              </div>
               <br></br>
-              @yahoo.com
-            </p>
-
+              <section style={contacts}>
+                Address: 2719 W 2000 S Aberdeen, ID 83210
+                </section>
+            </div>
           </div>
         </section>
+
+
       </body>
-      <footer className='footer'></footer>
-    </div>
+    </div >
   );
 }
 

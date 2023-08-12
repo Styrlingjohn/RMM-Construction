@@ -5,21 +5,38 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.root {
+  min-width: 100%;
+  min-height: 150px;
+}
+
 @media screen and (max-width: 800px) {
 
   .logo {
     width: 100%;
     max-width: 100%;
   }
+
+  .logo2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contacts {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
 
 .site {
   justify-content: center;
   background-color: rgb(189, 191, 195);
   margin: auto;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .header {
@@ -33,23 +50,27 @@
 
 .logo {
   display: flex;
-  margin: left 0;
   justify-content: left;
   text-align: left;
   float: left;
 }
 
-.h1 {
-  color: black;
-  background-color: rgb(189, 191, 195);
+.logo2 {
+  margin: auto;
+  justify-content: left;
+}
+.contactTitles {
+  font-size: 40px;
+  padding-bottom: 70px;
+  font-weight: bold;
 }
 
 .body {
   justify-content: center;
   margin: auto;
-  height: 201vh;
-  width: 90%;
-  background-color: white;
+  height: 100%;
+  width: 80%;
+  background-color: rgb(238, 238, 238);
 
 }
 
@@ -58,7 +79,6 @@
   padding-top: 50px;
   padding-bottom: 50px;
   width: 1000px;
-  height: auto;
   max-width: 100%;
   text-align: center;
 
@@ -93,19 +113,32 @@
 
 .textbox2 {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
   justify-content: center;
   max-width: 100%;
   max-height: 100%;
-  min-width: none;
-  min-height: none;
+  padding-top: 150px;
 }
 
-.footer {
+
+.contactForm {
+  justify-content: center;
   display: flex;
   max-width: 100%;
   max-height: 100%;
-  position: relative;
+  padding-top: 75px;
+  flex-wrap: wrap;
+}
+
+.contactInfo {
   background-color: rgb(189, 191, 195);
-  height: 30px;
+  width: 400px;
+  margin: auto;
+  line-height: 70px;
+  font-size: 25px;
+  width: 55%;
+  max-width: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
