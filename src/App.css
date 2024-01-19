@@ -10,23 +10,7 @@
   min-height: 150px;
 }
 
-@media screen and (max-width: 800px) {
 
-  .logo {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .logo2 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .contacts {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
 
 .contacts {
   display: flex;
@@ -121,6 +105,10 @@
   padding-top: 150px;
 }
 
+ .contacts {
+  flex-direction: row;
+ }
+
 
 .contactForm {
   justify-content: center;
@@ -136,9 +124,36 @@
   width: 400px;
   margin: auto;
   line-height: 70px;
-  font-size: 25px;
+  font-size: 1vw;
   width: 55%;
   max-width: 100%;
   padding-top: 150px;
   padding-bottom: 150px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .logo {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .logo2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contacts {
+    flex-direction: column;
+    font-size: 2vw;
+  }
+
+  .contactInfo {
+    width: max-content;
+  }
+
+  .contactTitles {
+    padding-bottom: 40px;
+  }
+
 }

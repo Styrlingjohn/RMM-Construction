@@ -16,10 +16,10 @@ const serviceBoxes = {
 }
 
 const contacts = {
-  textAlign: 'center', 
-  margin: 'auto', 
-  width: '100%', 
-  height: '100%' 
+  textAlign: 'center',
+  margin: 'auto',
+  width: '100%',
+  height: '100%',
 }
 
 
@@ -47,7 +47,7 @@ function App() {
         </section>
         <section>
           <div >
-            <h1 style={{paddingTop: '200px', textAlign: 'center', fontSize: '40px' }} >Services Offered:</h1>
+            <h1 style={{ paddingTop: '200px', textAlign: 'center', fontSize: '40px' }} >Services Offered:</h1>
             <div className='textbox2'>
               <div style={serviceBoxes}>Earthmoving</div>
               <div style={serviceBoxes}>Excavation</div>
@@ -61,7 +61,7 @@ function App() {
           <div className='contactForm'>
             <img className='logo2' src='/Logo.png' alt='trackhoe-logo'></img>
             <div className='contactInfo'>
-              <section className= 'contactTitles' style={contacts}>Contact Information:</section>
+              <section className='contactTitles' style={contacts}>Contact Information:</section>
               <div className='contacts'>
                 <section style={contacts}>
                   President & Project Superintendent
@@ -85,7 +85,8 @@ function App() {
               <br></br>
               <section style={contacts}>
                 Address: 2719 W 2000 S Aberdeen, ID 83210
-                </section>
+              </section>
+
             </div>
           </div>
         </section>
