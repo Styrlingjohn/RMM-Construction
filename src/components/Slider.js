@@ -1,12 +1,12 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Image1 from './images/Image1.jpg'
-import Image2 from './images/Image2.webp'
+import Image2 from './images/Image2.WebP'
 import Image3 from './images/Image3.jpg'
 import Image4 from './images/Image4.jpg'
 import Image5 from './images/Image5.jpg'
-import Image6 from './images/Image6.webp'
-import Image7 from './images/Image7.webp'
+import Image6 from './images/Image6.WebP'
+import Image7 from './images/Image7.WebP'
 
 
 
@@ -17,7 +17,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         style={{
-                            maxHeight: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover'
                         }}
                         className='d-block w-100'
@@ -28,7 +28,7 @@ const Slider = () => {
 
                     <img
                         style={{
-                            maxHeight: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover'
 
                         }}
@@ -39,7 +39,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         style={{
-                            height: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover'
 
                         }}
@@ -50,7 +50,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         style={{
-                            maxHeight: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover',
 
                         }}
@@ -61,7 +61,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         style={{
-                            maxHeight: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover',
 
                         }}
@@ -72,7 +72,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         style={{
-                            maxHeight: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover',
 
                         }}
@@ -83,7 +83,7 @@ const Slider = () => {
                 <Carousel.Item>
                     <img
                         style={{
-                            maxHeight: '90vh',
+                            maxHeight: '100vh',
                             objectFit: 'cover',
 
                         }}
