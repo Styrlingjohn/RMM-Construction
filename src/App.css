@@ -5,11 +5,19 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
 .root {
   min-width: 100%;
   min-height: 150px;
 }
-
 
 
 .contacts {
@@ -43,6 +51,7 @@
   margin: auto;
   justify-content: left;
 }
+
 .contactTitles {
   font-size: 40px;
   padding-bottom: 70px;
@@ -105,9 +114,9 @@
   padding-top: 100px;
 }
 
- .contacts {
+.contacts {
   flex-direction: row;
- }
+}
 
 
 .contactForm {
@@ -156,6 +165,15 @@
   .contactTitles {
     padding-bottom: 40px;
     font-size: 2vh;
+  }
+
+  .carousel {
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 }

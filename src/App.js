@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className='site'>
-   
+
       <header className='header'>
         <img className='logo' src='/RMM-grey-logo.png' alt='greylogo'></img>
       </header>
@@ -69,23 +69,25 @@ function App() {
                   <br></br>
                   Russell Palmer
                   <br></br>
-                  208-251-8496
+                  <a href="tel:208-251-8496">208-251-8496</a>
                   <br></br>
-                  rmm0468@gmail.com
+                  <a href="mailto:rmm0468@gmail.com"> rmm0468@gmail.com </a>
                 </section>
                 <section style={contacts}>
                   Project Manager
                   <br></br>
                   Preston Armstrong
                   <br></br>
-                  208-251-8496
+                  <a href="tel:208-251-8496">208-251-8496</a>
                   <br></br>
-                  armstrongpreston6@gmail.com
+                   <a href="mailto:armstrongpreston6@gmail.com"> armstrongpreston6@gmail.com </a>
                 </section>
               </div>
               <br></br>
               <section className="contacts" style={contacts}>
-                Address: 2719 W 2000 S Aberdeen, ID 83210
+                Address:
+                <br />
+                2719 W 2000 S Aberdeen, ID 83210
               </section>
 
             </div>
